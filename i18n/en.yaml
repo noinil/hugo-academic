@@ -63,6 +63,21 @@
 - id: publication_type
   translation: Type
 
+- id: pub_journal
+  translation: Journal
+
+- id: pub_year
+  translation: Year
+
+- id: pub_volume
+  translation: Volume
+
+- id: pub_issue
+  translation: Issue
+
+- id: pub_page
+  translation: Page
+
 - id: date
   translation: Date
 

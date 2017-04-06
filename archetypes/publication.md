@@ -17,6 +17,11 @@ publication_types = ["0"]
 # Publication name and optional abbreviated version.
 publication = ""
 publication_short = ""
+pub_journal = ""
+pub_year = ""
+pub_volume = ""
+pub_issue = ""
+pub_page = ""
 
 # Abstract and optional shortened version.
 abstract = ""
