@@ -544,6 +544,18 @@ article {
   padding-top: 10px;
 }
 
+#ct_pub_simple_authors {
+    line-height: normal;
+    font-style: normal;
+    font-size: 0.8rem;
+    color: #317095;
+}
+
+#ct_pub_simple_publication {
+    color: #09A;
+    font-size: 0.9rem;
+}
+
 #container-publications {
   display: block;
   position: relative;
