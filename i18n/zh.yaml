@@ -63,22 +63,6 @@
 - id: publication_type
   translation: 类型
 
-- id: pub_journal
-  translation: 出版物
-
-- id: pub_year
-  translation: 年
-
-- id: pub_volume
-  translation: 期
-
-- id: pub_issue
-  translation: 卷
-
-- id: pub_page
-  translation: 页
-
-
 - id: date
   translation: 日期
 
