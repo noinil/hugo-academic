@@ -23,13 +23,13 @@
                         {{ range .Pages.ByDate.Reverse }}
                         <li>
                             {{ if eq .Params.presentation_type "Poster" }}
-                            <i class="fa-li fa fa-file-photo-o" aria-hidden="true"
+                            <i class="fa fa-file-photo-o" aria-hidden="true"
                                style="color:#03396c;font-size:80%;padding-top:6px;"></i>
                             {{ else if eq .Params.presentation_type "Talk" }}
-                            <i class="fa-li fa fa-comment-o" aria-hidden="true"
+                            <i class="fa fa-comment-o" aria-hidden="true"
                                style="color:#03396c;font-size:80%;padding-top:6px;"></i>
                             {{else}}
-                            <i class="fa-li fa fa-file-o" aria-hidden="true"
+                            <i class="fa fa-file-o" aria-hidden="true"
                                style="color:#03396c;font-size:80%;padding-top:6px;"></i>
                             {{end}}
                             {{ .Title }}

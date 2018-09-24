@@ -1,10 +1,10 @@
 <li itemscope itemtype="http://schema.org/CreativeWork">
     {{ if eq .Params.presentation_type "Poster" }}
-    <i class="fa-li fa fa-file-photo-o pub-icon" aria-hidden="true"></i>
+    <i class="fa fa-file-photo-o pub-icon" aria-hidden="true"></i>
     {{ else if eq .Params.presentation_type "Talk" }}
-    <i class="fa-li fa fa-comment-o pub-icon" aria-hidden="true"></i>
+    <i class="fa fa-comment-o pub-icon" aria-hidden="true"></i>
     {{else}}
-    <i class="fa-li fa fa-file-o pub-icon" aria-hidden="true"></i>
+    <i class="fa fa-file-o pub-icon" aria-hidden="true"></i>
     {{end}}
     <span itemprop="name"><a href="{{ .Permalink }}">{{ .Title }}</a></span>
     <p>
